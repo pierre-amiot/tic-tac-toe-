@@ -20,6 +20,7 @@ def ia(board, signe):
             board[i] = 0
 
     # Jouer au centre si possible
+        # Jouer au centre si possible
     if board[4] == 0:
         return 4
 
